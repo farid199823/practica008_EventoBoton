@@ -108,10 +108,9 @@ public class Pregunton extends Application {
         preguntas.add(new pregunta("¿cuanto es 1 mas 1?", new String[]{"1", "2", "3", "4"}, 1));
         preguntas.add(new pregunta("cuantos palnetas tiene el sistema solar", new String[]{"9", "8", "10", "5"}, 8));
         preguntas.add(new pregunta("cuantos satelites naturales tiene el planeta tierra,",new String[]{"10","2","3","8","1"},4));
+        }}
 
-        }
 
-}
 
 
 
