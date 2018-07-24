@@ -67,6 +67,7 @@ private String operacion;
         }
     }
 
+
     @FXML
     void limpiarEntrada(ActionEvent event) {
         Display.setText("0");

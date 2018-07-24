@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UNIDAD2.Editordetexto">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="archivo">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#menunuevo" text="nuevo" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuabrir" text="abrir" />
+                  <MenuItem mnemonicParsing="false" onAction="#menucerrar" text="cerrar" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuguardar" text="guardar" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuguardarcomo" text="guardar como" />
+                  <MenuItem mnemonicParsing="false" onAction="#menusalir" text="salir" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
