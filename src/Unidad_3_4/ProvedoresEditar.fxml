@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contenedor" prefHeight="446.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Unidad_3_4.ProvedoresEditar">
+   <children>
+      <Label layoutX="4.0" layoutY="25.0" prefHeight="14.0" prefWidth="73.0" text="Nombre">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="69.0" prefHeight="14.0" prefWidth="53.0" text="RFC">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="117.0" prefHeight="14.0" prefWidth="53.0" text="Calle">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="153.0" prefHeight="14.0" prefWidth="53.0" text="Cololnia">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="197.0" prefHeight="14.0" prefWidth="53.0" text="Ciudad">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="238.0" prefHeight="14.0" prefWidth="53.0" text="Pais">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="284.0" prefHeight="14.0" prefWidth="73.0" text="Telefono">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="340.0" prefHeight="14.0" prefWidth="73.0" text="Celular">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="379.0" prefHeight="14.0" prefWidth="73.0" text="Email">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="nombre" layoutX="220.0" layoutY="10.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="rfc" layoutX="220.0" layoutY="54.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="calle" layoutX="220.0" layoutY="102.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="colonia" layoutX="224.0" layoutY="149.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="ciudad" layoutX="220.0" layoutY="182.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="pais" layoutX="220.0" layoutY="223.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="telefono" layoutX="220.0" layoutY="269.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="celular" layoutX="220.0" layoutY="325.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXTextField fx:id="email" layoutX="220.0" layoutY="364.0" prefHeight="22.0" prefWidth="290.0" />
+      <JFXButton layoutX="531.0" layoutY="160.0" onAction="#actualizar" style="-fx-background-color: #4286f4;" text="ACTUALIZAR" />
+      <JFXButton layoutX="530.0" layoutY="227.0" onAction="#cancelar" style="-fx-background-color: #c60d32;" text="CANCELAR" />
+      <Label layoutY="7.0" text="PROVEEDOR">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font></Label>
+      <JFXComboBox fx:id="proveedor" layoutX="220.0" layoutY="3.0" prefHeight="22.0" prefWidth="283.0" />
+      <JFXButton layoutX="531.0" layoutY="280.0" onAction="#eliminar" style="-fx-background-color: #e22209;" text="ELIMINAR" />
+   </children>
+</AnchorPane>
